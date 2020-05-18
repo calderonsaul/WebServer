@@ -26,7 +26,7 @@ pipeline {
 
     stage('image') {
       steps {
-        sh 'docker build -t webserver:vy .'
+        sh 'docker build -t calderonsaul/webserver:vy .'
       }
     }
 
